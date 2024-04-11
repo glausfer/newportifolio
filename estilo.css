@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'Rubrica';
+    src: url('https://fonts.google.com/selection#how-to-use') format('woff');
+  }
+  
+
+/* Redefinição de estilos */
+* {
+    margin: 3px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Corpo da página */
+  body {
+    font-family: 'Rubrica';
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #FFFAF0;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #FFF0F5;
+    color: black;
+    text-align: left;
+    padding: 15px;
+  }
+  
+  header h1 {
+    font-size: 45px;
+    margin-top: 8%;
+  }
+  
+  /* Foto */
+  .imagem {
+    position: absolute;
+    top: 10%;
+    right: 8%;
+    float: right;
+    border-radius: 900%;
+    margin: none;
+    width: 16%;
+    padding-top: 0%;
+}
+  
+  /* Menu principal */
+  nav {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    z-index: 100;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav a {
+    display: inline-block;
+    padding: 10px;
+    float: right;
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+  }
+  
+  nav a:hover {
+    background-color: peachpuff;
+    color: black;
+  }
+  
+  /* Seções */
+  section {
+    margin: 20px;
+    padding: 20px;
+    border: none #ddd;
+  }
+  
+  section h2 {
+    font-size: 40px;
+    margin-top: 0;
+  }
+  
+  /* Seção Sobre Mim */
+  #sobre-mim {
+    text-align: center;
+    width: 800px;
+  }
+  
+  /* Seção Hobbies e Soft Skills */
+
+  #hobbies {
+    text-align: center;
+    padding: 0;
+  }
+
+  .hobbies__icones {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    display: inline-block;
+  }
+  
+  #hobbies-soft-skills li {
+    margin-bottom: 3px;
+  }
+  
+  /* Seção Formações + Cursos */
+  #formacoes-cursos {
+    text-align: center;
+    padding: 0;
+  }
+  
+  .cursos__icone {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    list-style: none;
+    display: inline-block;
+  }
+  
+  /* Seção Contato */
+  #contato {
+    text-align: center;
+  }
+  
+  #contato form {
+    display: inline-block;
+    margin: 0 auto;
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: #FFF0F5;
+    color: black;
+    text-align: center;
+    padding: 20px;
+  }
+  
